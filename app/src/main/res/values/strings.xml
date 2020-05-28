@@ -2,5 +2,4 @@
     <string name="app_name">About</string>
     <string name="kyocera_logo_desc">Kyocera Logo</string>
     <string name="copyright_desc">© %1$s KYOCERA Document Solutions Inc.</string>
-    <string name="version_number">v1.0</string>
 </resources>

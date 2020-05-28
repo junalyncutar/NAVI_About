@@ -15,6 +15,7 @@ import java.util.Date;
 public class MainActivity extends AppCompatActivity {
 
     private TextView copyrightText;
+    private TextView versionText;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,6 +28,9 @@ public class MainActivity extends AppCompatActivity {
 
         copyrightText = (TextView) findViewById(R.id.copyright_text);
         copyrightText.setText(getResources().getString(R.string.copyright_desc, Calendar.getInstance().get(Calendar.YEAR)));
+
+        versionText = (TextView) findViewById(R.id.version_text);
+        versionText.setText("v1.0");
     }
 
 }
